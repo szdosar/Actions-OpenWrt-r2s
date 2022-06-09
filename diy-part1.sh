@@ -24,8 +24,8 @@ rm feeds.conf.default
 cat > feeds.conf.default <<EOF
 src-git packages https://github.com/coolsnowwolf/packages^d398651
 src-git luci https://github.com/coolsnowwolf/luci^160352f
-src-git routing https://git.openwrt.org/feed/routing.git^e3c6842
-src-git telephony https://git.openwrt.org/feed/telephony.git^24acd46
+src-git routing https://git.openwrt.org/feed/routing.git
+src-git telephony https://git.openwrt.org/feed/telephony.git
 src-git lienol https://github.com/Lienol/openwrt-package
 src-git helloworld https://github.com/fw876/helloworld.git
 src-git kenzo https://github.com/kenzok8/openwrt-packages
