@@ -71,7 +71,7 @@ jobs:
         chmod +x $DIY_P1_SH
         cd openwrt
         #git reset --hard 77251e963f61f33504d24defef9dcfe1104d0a70
-        git reset --hard 48585ff50b5d76e702c0b58b6b0c14f68871aed9
+        git reset --hard 619e8ade0cabd85004713f4b60c11a4027c6e2bd
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
