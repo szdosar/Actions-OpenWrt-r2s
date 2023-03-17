@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: self-hosted Build r2s OpenWrt
+name: self-Build r2s OpenWrt
 
 on:
   repository_dispatch:
@@ -37,6 +37,8 @@ env:
 
 jobs:
   build:
+    #runs-on: ubuntu-latest
+    #runs-on: ubuntu-18.04
     runs-on: self-hosted
 
     steps:
